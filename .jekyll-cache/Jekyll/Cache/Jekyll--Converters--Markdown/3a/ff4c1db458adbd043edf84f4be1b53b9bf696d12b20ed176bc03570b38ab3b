@@ -1,0 +1,18 @@
+I"�<p><img src="https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg" alt="Swiss Alps" /></p>
+
+<h2 id="mathjax">MathJax</h2>
+
+<p>You can enable MathJax by setting <code class="language-plaintext highlighter-rouge">mathjax: true</code> on a page or globally in the <code class="language-plaintext highlighter-rouge">_config.yml</code>. Some examples:</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Euler%27s_formula">Euler’s formula</a> relates the  complex exponential function to the trigonometric functions.</p>
+
+\[e^{i\theta}=\cos(\theta)+i\sin(\theta)\]
+
+<p>The <a href="https://en.wikipedia.org/wiki/Lagrangian_mechanics">Euler-Lagrange</a> differential equation is the fundamental equation of calculus of variations.</p>
+
+\[\frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac{\partial L}{\partial \dot{q}} \right ) = \frac{\partial L}{\partial q}\]
+
+<p>The <a href="https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation">Schrödinger equation</a> describes how the quantum state of a quantum system changes with time.</p>
+
+\[i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)\]
+:ET

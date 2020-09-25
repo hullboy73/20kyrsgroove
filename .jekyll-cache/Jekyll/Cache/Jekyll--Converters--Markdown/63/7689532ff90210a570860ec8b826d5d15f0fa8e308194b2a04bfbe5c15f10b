@@ -1,0 +1,8 @@
+I"F<p><a href="https://hullboy73.github.io/20kyrsgroove/">20,000 Years of Dance Music</a> is a personal website maintained by hullboy73 and currently running on GitHub Pages using the Contrast theme.</p>
+
+<p><a href="https://pages.github.com/">GitHub Pages</a> is a static web hosting service offered by GitHub since 2008 to GitHub users for hosting user blogs, project documentation, or even whole books created as a page. <a href="https://niklasbuschmann.github.io/contrast/">Contrast</a> is a Jekyll theme for GitHub Pages.</p>
+
+<p>GitHub provides hosting for software development and version control using Git. Since 2018 GitHub Inc. has been a subsidiary of Microsoft.</p>
+
+<p>It was kinda’ hard to get set up working on my local Linux machine build. ruby, bundler, jekyll… all these tricks. The documentation seems pretty outdated or doesn’t seem to add up anyway. I found <a href="https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a">this more recent post on Medium</a> unusually comprehensive on what you need to install. Helpful.</p>
+:ET
