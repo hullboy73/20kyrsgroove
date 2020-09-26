@@ -1,6 +1,6 @@
 ---
-title: "Welcome to 20,000 Years of Dance Music"
-date: 2020-09-25
+title: "Welcome to Jekyll"
+date: 2017-03-01
 layout: post
 ---
 

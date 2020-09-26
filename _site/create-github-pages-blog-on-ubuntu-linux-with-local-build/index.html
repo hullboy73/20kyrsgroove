@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Create a GitHub Pages Blog on Ubuntu Linux with Local Build | 20,000 Years of Dance Music</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Big, big shout out to Arya Murali and her comprehensive guide on Medium to Creating your blog for free using Jekyll + Github pages. That’s the definitive and...">
+<meta name="author" content="hullboy73">
+<meta name="generator" content="Jekyll v3.9.0">
+<link rel="canonical" href="http://localhost:4000/create-github-pages-blog-on-ubuntu-linux-with-local-build/">
+
+<link rel="stylesheet" href="/assets/css/index.css">
+
+<link rel="stylesheet" href="/assets/css/classes.css">
+
+<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="20,000 Years of Dance Music">
+
+
+
+
+<header class="icons">
+  
+    <a href="/" class="title">20,000 Years of Dance Music</a>
+  
+  
+    
+  <nav>
+  <a aria-label="Home" href="/" ><span aria-hidden="true" >Home</span></a>
+  <a aria-label="About" href="/about/" ><span aria-hidden="true" >About</span></a>
+  
+  </nav>
+
+
+    
+
+  
+  
+</header>
+
+<article>
+  <header>
+  
+  <h1><a href="/create-github-pages-blog-on-ubuntu-linux-with-local-build/">Create a GitHub Pages Blog on Ubuntu Linux with Local Build</a></h1><time datetime="2020-09-26T00:00:00+01:00">September 26, 2020</time>
+</header>
+
+  <p><img src="https://user-images.githubusercontent.com/4943215/74586452-bcb15780-4fe7-11ea-94a8-7a9b52bf04b3.jpeg" alt="Laptop" /></p>
+
+<p>Big, big shout out to <a href="https://aryamurali.com/">Arya Murali</a> and her comprehensive guide on Medium to <a href="https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a">Creating your blog for free using Jekyll + Github pages</a>. That’s the definitive and really spot on guide to how to do this.</p>
+
+<p>I could attempt to rewrite the whole of that article in my own words and I’ve had a go but it’s so well written and clear that I’ll just direct you to <a href="https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a">that tutorial</a>.</p>
+
+<p><a href="https://pages.github.com/">The GitHub Pages welcome page</a> provides an easier method to setting up a blog on GitHub Pages but it won’t enable you to build your website locally on your machine and push the changes from there. <a href="https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a">This tutorial</a> is a thorough guide to how to do that.</p>
+
+<p>I’m running on a Ubuntu 18.04 Linux platform so in terms of installing packages and dependencies start with this at the command line.</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>ruby  
+<span class="nv">$ </span>gem <span class="nb">install </span>jekyll bundler</code></pre></figure>
+
+<p>Everything else <a href="https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a">here</a> should be straight-forward enough. It is a kind of complicated process. One of the confusing things is you build offline <em>before</em> creating a repository on GitHub Pages. Another issue that’s often mentioned in similar guides (I’ve read quite a lot) is checking out to the gh-pages branch. I don’t understand any of that but it’s all set out in <a href="https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a">the guide</a>.</p>
+
+<!-- From the browser or command line go to [http://127.0.0.1:4000](http://127.0.0.1:4000) and check out your new blog.  
+
+These are the essential instructions that are frustratingly absent from a lot of guides but were made explicit in [the marvellous tutorial/guide mentioned above](https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a). I'm just passing on some useful information. We're kind of only halfway there because the blog is not yet set up on GitHub Pages. Again this is confusing because the trick is to set up create the repository offline (as we just did with the jekyll serve command) before creating the repository on GitHub Pages. [Arya's tutorial](https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a) takes you carefully step-by-step through that process.  
+
+So on GitHub Pages you create a new repository. This is achieved via the plus button at the top right of the screen. You enter your_blog_name exactly as you set it up with jekyll earlier in the Repository name box. Don't initialize the repository with a README. Just hit the Create repository green button and stop right there. We're going to 'push an existing repository from the command line'. -->
+
+<p>So I’m not exactly new to blogging or using GitHub but I do get a bit tied up in knots when trying to work my way through this stuff. Jekyll has a decent and not too long <a href="https://jekyllrb.com/docs/step-by-step/01-setup/">Step by Step Tutorial</a> which I’ll have to read again. I jump into these things and only really understand what’s happening after I’ve haphazardly come across and typed in <a href="https://medium.com/20percentwork/creating-your-blog-for-free-using-jekyll-github-pages-dba37272730a">the correct instructions</a> I needed to get it to work. That’s pretty much my amateur way in. The GitHub Pages docs were maddening. <a href="https://jekyllrb.com/docs/step-by-step/02-liquid/">Liquid templating</a> looks tricky. It’s all coded in Ruby this static website stuff, Jekyll and so forth. I remember that fantastic comic guide to Ruby - Why’s comic guide or something? What was that called? <a href="https://poignant.guide/">Why’s (Poignant) Guide to Ruby</a>. There are static site generators for Python, such as <a href="https://blog.getpelican.com/">Pelican</a> and now I understand a bit more how it works I could have a look at that maybe or perhaps just stick with Ruby and Jekyll and a just about working website.</p>
+
+<p>OK, <a href="https://stackoverflow.com/questions/35077507/how-to-right-align-and-justify-align-in-markdown">how do I justify paragraphs?</a> This is gonna’ be harder than I thought…</p>
+
+  
+</article>
+
+
+  <footer class="related">
+    <div class="previous"><span>Previous Post</span><a href="/welcome-to-20,000-years-of-dance-music/">Welcome to 20,000 Years of Dance Music</a></div>
+    <div class="next"></div>
+  </footer>
+
+
+
+</html>
