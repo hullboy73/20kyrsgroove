@@ -1,5 +1,5 @@
 ---
-title: "Numerai Dataset Crashes My Jupyter Notebook and Linux PC"
+title: "Numerai dataset crashes my Jupyter Notebook and Linux PC"
 date: 2020-10-08
 layout: post
 ---

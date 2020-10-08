@@ -1,5 +1,5 @@
 ---
-title: "Create a GitHub Pages Blog on Ubuntu Linux with Local Build"
+title: "Create a GitHub Pages blog on Ubuntu Linux with local build"
 date: 2020-09-26
 layout: post
 ---
